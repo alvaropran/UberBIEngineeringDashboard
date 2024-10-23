@@ -11,6 +11,6 @@ The aim was to become familiar with Google services on the cloud for storing dat
 
 Google Cloud Steps:
 
-- Ran the virtual machine through GCP
+- Ran the virtual machine through GCP, resolved some externally managed environment bugs 
 - Downloaded pip and downloaded mage
 - Began by using local host and external IP provided by Google Compute Engine
