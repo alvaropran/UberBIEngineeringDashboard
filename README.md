@@ -16,6 +16,20 @@ Data Model Steps:
 - Connected primary keys of the dimension tables to the fact tables via a 1:M relationship
 - Used Lucid charts to draft the model, subject to change depending on requirements and scope
 
+Tables used:
+
+Fact Table: 
+Quantitative measures or metrics used for analysis
+Foreign keys that link to dimension tables
+Contains columns that change frequently
+Contains columns not useful for analysis, but essential for calculating metrics
+
+Dimension Table:
+Columns describe attributes of data being analyzed
+Primary keys linking to fact tables
+Low cardinality dont change frequently
+Summary: Static, don’t change, product names
+
 Below is the STAR schema model:
 
 <img width="929" alt="Screenshot 2024-10-27 at 12 54 52 PM" src="https://github.com/user-attachments/assets/b723c328-8ea7-4156-a133-eb8b88e4db15">
