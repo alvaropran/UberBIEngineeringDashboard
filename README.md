@@ -10,7 +10,14 @@ Google Cloud Storage, SQL, Python, QuickDBD, Google Mage compute engine, Mage.AI
 Mage.AI is an open-source data pipeline tool that helps with transforming and integrating data, learn more about it here: https://www.mage.ai/
 
 The aim was to become familiar with Google services on the cloud for storing data. Additionally, I wanted to explore more visualization and planning tools such as Looker and Lucid Charts for data modelling. 
+
+## Architecture 
+
+<img width="625" alt="Screenshot 2024-10-27 at 3 12 00 PM" src="https://github.com/user-attachments/assets/1c429fa6-1942-49ec-993d-eb61ee5dde1b">
 ___
+
+## Step 1: Data Modelling
+
 ### Data Model Steps:
 - Identified which data points would be part of the dimension or fact tables
 - Connected primary keys of the dimension tables to the fact tables via a 1:M relationship
@@ -66,10 +73,30 @@ Determine the key dimensions from the data (e.g., date, time, location, vehicle 
 - Consider techniques like indexing and partitioning to improve query performance.
 - Implement appropriate security measures to protect sensitive data.
 ___
+## Step 2: Set up Google Cloud Storage
 
-Google Cloud Steps:
+Setting Up a Data Pipeline with Google Cloud
 
-- Ran the virtual machine through GCP, resolved some externally managed environment bugs 
-- Downloaded pip and downloaded mage
-- Began by using local host and external IP provided by Google Compute Engine
+- Create a Google Cloud Project and Storage Bucket:
+  - Set up a new Google Cloud Platform project login using a free trial, comes with $300 credit.
+  - Create a storage bucket to store my data.
+  - Upload the data to the bucket.
+  
+- Create a Google Compute Engine Instance:
+  - Launch a virtual machine instance SSH.
+  - Choose a suitable region and machine configuration.
+
+- Set Up the Environment:
+  - Address any bugs or inconsistencies related to the external environment.
+  - Install required packages like pip and mage.
+
+- Configure Firewall Rules:
+  - Create a firewall rule to allow incoming traffic to the instance on the specified port, this port is identified when mage is run on the VM.
+  - Set the source IP address range to 0.0.0.0/0 to allow access from anywhere.
+    
+- Run The Application: Initial Testing: Start your application using localhost and the external IP provided by Google Compute Engine to test its functionality.
+
+
+Command List: Refer to the specific command list for detailed instructions on how to perform these tasks.
+
 
