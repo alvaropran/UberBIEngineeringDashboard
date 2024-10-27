@@ -98,6 +98,9 @@ Setting Up a Data Pipeline with Google Cloud
 
 
 Command List: Refer to the specific command list for detailed instructions on how to perform these tasks. --> [Text Commands Here](commands.txt)
+___
+
+## Step 3: Mage.AI steps (Load, Transform, Extract)
 
 
 
