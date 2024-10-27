@@ -7,6 +7,8 @@ Build a data pipeline to integrate Uber data into Google BigQuery. Create a STAR
 
 Google Cloud Storage, SQL, Python, QuickDBD, Google Mage compute engine, Mage.AI Data Pipeline Tool, Google Big Query, Google Looker Analytics, Lucid Chart
 
+Mage.AI is an open-source data pipeline tool that helps with transforming and integrating data, learn more about it here: https://www.mage.ai/
+
 The aim was to become familiar with Google services on the cloud for storing data. Additionally, I wanted to explore more visualization and planning tools such as Looker and Lucid Charts for data modelling. 
 
 Data Model Steps:
