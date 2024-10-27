@@ -14,6 +14,7 @@ The aim was to become familiar with Google services on the cloud for storing dat
 ## Architecture 
 
 <img width="625" alt="Screenshot 2024-10-27 at 3 12 00 PM" src="https://github.com/user-attachments/assets/1c429fa6-1942-49ec-993d-eb61ee5dde1b">
+
 ___
 
 ## Step 1: Data Modelling
