@@ -10,13 +10,13 @@ Google Cloud Storage, SQL, Python, QuickDBD, Google Mage compute engine, Mage.AI
 Mage.AI is an open-source data pipeline tool that helps with transforming and integrating data, learn more about it here: https://www.mage.ai/
 
 The aim was to become familiar with Google services on the cloud for storing data. Additionally, I wanted to explore more visualization and planning tools such as Looker and Lucid Charts for data modelling. 
-
-Data Model Steps:
+___
+### Data Model Steps:
 - Identified which data points would be part of the dimension or fact tables
 - Connected primary keys of the dimension tables to the fact tables via a 1:M relationship
 - Used Lucid charts to draft the model, subject to change depending on requirements and scope
 
-Tables used:
+### Tables used:
 
 Fact Table: 
 Quantitative measures or metrics used for analysis
@@ -33,6 +33,39 @@ Summary: Static, don’t change, product names
 Below is the STAR schema model:
 
 <img width="929" alt="Screenshot 2024-10-27 at 12 54 52 PM" src="https://github.com/user-attachments/assets/b723c328-8ea7-4156-a133-eb8b88e4db15">
+
+### Data Preparation and Transformation:
+
+Data Import: Load the flat file into a Python DataFrame.
+Data Cleaning:
+- Identify and handle missing values (e.g., fill with appropriate values or remove rows).
+- Convert relevant columns to appropriate data types (e.g., convert date/time strings to datetime objects using pd.to_datetime()).
+Data Standardization:
+- Standardize date and time formats.
+- Remove unnecessary characters or whitespace.
+- Identify and handle outliers if necessary.
+
+### Dimension Table Creation:
+
+Determine the key dimensions from the data (e.g., date, time, location, vehicle type). Extract Dimension Attributes: Extract relevant attributes from the data (e.g., hour, day, month, year, weekday).
+
+#### Create Dimension Tables:
+- Identify unique records for each dimension.
+- Assign a unique identifier (e.g., ID) to each record.
+- Structure the data into dimension tables with appropriate columns (e.g., dimension ID, dimension attributes).
+
+#### Fact Table Creation:
+- Determine the key metrics or measures to be stored in the fact table (e.g., trip distance, fare amount, tip amount).
+- Join the dimension tables to the fact table based on common keys (e.g., date ID, time ID, location ID).
+- Include the fact measures in the fact table.
+- Structure the fact table with appropriate columns (e.g., foreign keys to dimension tables, fact measures).
+
+#### Additional Considerations:
+- Data Dictionary: Refer to the data dictionary to understand the meaning and usage of different data elements.
+- Ensure data quality by performing data validation and cleansing.
+- Consider techniques like indexing and partitioning to improve query performance.
+- Implement appropriate security measures to protect sensitive data.
+___
 
 Google Cloud Steps:
 
