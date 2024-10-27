@@ -97,6 +97,7 @@ Setting Up a Data Pipeline with Google Cloud
 - Run The Application: Initial Testing: Start your application using localhost and the external IP provided by Google Compute Engine to test its functionality.
 
 
-Command List: Refer to the specific command list for detailed instructions on how to perform these tasks.
+Command List: Refer to the specific command list for detailed instructions on how to perform these tasks. --> [Text Commands Here](commands.txt)
+
 
 
