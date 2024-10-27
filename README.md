@@ -16,6 +16,8 @@ Data Model Steps:
 - Connected primary keys of the dimension tables to the fact tables via a 1:M relationship
 - Used Lucid charts to draft the model, subject to change depending on requirements and scope
 
+Below is the STAR schema model:
+
 <img width="929" alt="Screenshot 2024-10-27 at 12 54 52 PM" src="https://github.com/user-attachments/assets/b723c328-8ea7-4156-a133-eb8b88e4db15">
 
 Google Cloud Steps:
