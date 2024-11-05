@@ -103,5 +103,8 @@ ___
 
 ## Step 3: Mage.AI steps (Load, Transform, Extract)
 
-
+- Python Transformation Code done in Jupyter Notebook can be found in the file directory
+- Edit io_config.yaml to match with GCP credentials (project name, key, location, etc.)
+Steps: NAvigate to GCP API → Create new credential → Service Account → Create new keys → Download keys
+- Enter keys to io_config.yaml, this is how we get the proper credentials and gateways
 
