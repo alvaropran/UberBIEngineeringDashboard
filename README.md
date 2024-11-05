@@ -107,4 +107,13 @@ ___
 - Edit io_config.yaml to match with GCP credentials (project name, key, location, etc.)
 Steps: NAvigate to GCP API → Create new credential → Service Account → Create new keys → Download keys
 - Enter keys to io_config.yaml, this is how we get the proper credentials and gateways
+___
 
+## Step 4: Write SQL Queries for GCP Google Big Query
+
+The SQL queries aim to analyze the data so that it can be easily used in Google Looker Studio and further.
+___
+
+## Step 5: Looker Dashboard
+
+Create an interactive looker dashboard with correct KPI's (ran into a runtime error during mage process, unable to get data to load)
