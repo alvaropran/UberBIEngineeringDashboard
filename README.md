@@ -125,4 +125,8 @@ ___
 
 ## Step 5: Looker Dashboard
 
-Create an interactive looker dashboard with correct KPI's (ran into a runtime error during mage process, unable to get data to load)
+Create an interactive looker dashboard with valuable KPI's
+
+<img width="768" alt="Screenshot 2024-11-15 at 11 33 46 AM" src="https://github.com/user-attachments/assets/2ecd0847-45af-4422-8dfc-cd6a141f6162">
+
+
