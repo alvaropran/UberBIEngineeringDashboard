@@ -9,7 +9,7 @@ Google Cloud Storage, SQL, Python, QuickDBD, Google Mage compute engine, Mage.AI
 
 Mage.AI is an open-source data pipeline tool that helps with transforming and integrating data, learn more about it here: https://www.mage.ai/
 
-The aim was to become familiar with Google services on the cloud for storing data. Additionally, I wanted to explore more visualization and planning tools such as Looker and Lucid Charts for data modelling. 
+The aim was to explore key insights on real Uber data and become familiar with Google services on the cloud for storing data. Additionally, I wanted to explore more visualization and planning tools such as Looker and Lucid Charts for data modelling. 
 
 ## Architecture 
 
