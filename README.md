@@ -16,7 +16,16 @@ The aim was to become familiar with Google services on the cloud for storing dat
 <img width="625" alt="Screenshot 2024-10-27 at 3 12 00 PM" src="https://github.com/user-attachments/assets/1c429fa6-1942-49ec-993d-eb61ee5dde1b">
 
 ___
+## Key Findings/Insights
 
+Through dynamic and interactive data visualizations, I revealed critical insights into Uber's key performance indicators (KPIs) such as driver productivity, rider retention, and revenue generation. By identifying trends and patterns in these metrics, I provided a comprehensive understanding of operational performance, helping stakeholders address inefficiencies and capitalize on opportunities.
+
+I empowered business users by developing intuitive, user-friendly dashboards that are both visually appealing and highly customizable. These dashboards enable users at all levels to effortlessly access, analyze, and interpret data, fostering a culture of data-driven decision-making. This approach ensures that insights are not confined to technical teams but are readily available to support strategic planning and day-to-day operations.
+
+Furthermore, I demonstrated the transformative power of comprehensive data analytics tools in deriving actionable business intelligence. By leveraging advanced analytical techniques, I helped translate raw data into meaningful insights, guiding strategic initiatives that drive growth and improve customer satisfaction. This process underscored the importance of robust data infrastructure in staying competitive in a dynamic business landscape.
+
+
+___
 ## Step 1: Data Modelling
 
 ### Data Model Steps:
